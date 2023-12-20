@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+.projectcontainer{
+    margin: 200px 0;
+    padding: 100px;
+}
+
+.projectcontainer h1{
+    color: #f64c08;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    font-size: 2em; 
+    margin-bottom: 20px;
+}
+ 
+.projectcontainer-project {
+    color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.projectcontainer-project a{
+    text-decoration: none;
+}
+  
+.projectcontainer-project1 {
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 20px;
+}
+  
+/* .projectcontainer-project1:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}  */
+  
+.projectcontainer-imgage1,
+.projectcontainer-imgage2 {
+     overflow: hidden;
+}
+  
+.projectcontainer-imgage1 img,
+.projectcontainer-imgage2 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.projectcontainer-imgage1:hover img,
+.projectcontainer-imgage2:hover img {
+    transform: scale(1.2);
+}
+  
+.projectcontainer-text {
+    background-color: rgba(0, 0, 0, 0.035);  
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    color: #f64c08;
+    font-family: 'Alata',sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    border-radius: 30%;
+}
+
+.projectcontainer-text:hover{
+    background-color:rgba(0, 0, 0, 0.329);
+}
+  
+.projectcontainer-project1:hover .projectcontainer-text {
+    opacity: 1;  
+}
+   
+@media only screen and (max-width: 660px) {
+    .projectcontainer-project1 {
+        width: 50vw;
+    }
+
+
+}

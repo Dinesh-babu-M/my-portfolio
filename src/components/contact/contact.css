@@ -1,0 +1,103 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 100;
+}
+
+.contact h1{
+    color: #f64c08;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+
+.contactcontainer{
+    border: 1px solid whitesmoke;
+    width: 35vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.contactcontainer p{
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+
+}
+
+.contactcontainer p span{
+    color: #f64c08;
+    transition: transform 200ms ease-in-out;
+}
+
+.contactcontainer p span:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    color: gold;
+}
+
+.contactcontainer p span:focus{
+    cursor: pointer;
+    transform: scale(1.09);
+    color: gold;
+}
+
+.contact-icon {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+  
+
+.contact-icon img{
+    width: 30px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon-Email,
+.contact-icon-LinkedIn {
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact-icon-Email,
+.contact-icon-LinkedIn:hover{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 660px) {
+    .contact {
+      margin: 50px 0;
+    }
+  
+    .contactcontainer {
+      width: 80vw;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .contactcontainer p {
+      font-size: 16px;
+    }
+  
+    .contact-icon img {
+      width: 20px;
+    }
+}
+  
+
+  

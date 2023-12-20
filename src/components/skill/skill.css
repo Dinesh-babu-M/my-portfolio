@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.skillcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+    padding: 100px;
+}
+
+.skillcontainer-text{
+    color: silver;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20x;
+}
+
+.skillcontainer-text h2{
+    font-size: 24px;
+    color: #f64c08;
+}
+
+.skillcontainer-imgage{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.skillcontainer-imgage img{
+    width: 300px;
+    border-radius: 10%;
+    object-fit: contain;
+}
+
+.skillcontainer-imgage img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* slider style */
+
+.skillcontainer-skillset h5{
+    font-family: 'Crimson', sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 5vh;
+}
+
+
+.skillcontainer-skillset h5:hover{
+    color: #f64c08;
+    background-color: black;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    transform: scale(1.09);
+}
+
+
+/* slider color  */
+
+.skillcontainer-slider .css-eglki6-MuiLinearProgress-root{
+    background-color: rgb(88, 88, 88);
+}
+
+.skillcontainer-slider1 .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: #f64c08;
+}
+
+.skillcontainer-slider2 .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: #3ef58a;
+}
+
+.skillcontainer-slider3 .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: #f6de08;
+}
+
+.skillcontainer-slider4 .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: #ac3ef5;
+}
+
+.skillcontainer-slider5 .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: green;
+}
+
+.skillcontainer-slider6 .css-5xe99f-MuiLinearProgress-bar1{
+    background-color: orangered;
+}
+
+
+@media only screen and (max-width: 660px) {
+    .skillcontainer {
+        flex-direction: column; 
+        padding: 50px;
+        margin-top: 0;
+    }
+
+    .skillcontainer-text {
+        flex: 1; 
+        text-align: center; 
+        margin-bottom: 10px; 
+    }
+
+    .skillcontainer-text h2 {
+        font-size: 24px; 
+        padding: 10px;
+    }
+
+    .skillcontainer-imgage {
+        flex: 1; 
+        text-align: center; 
+        margin-right: 0; 
+    }
+
+    .skillcontainer-imgage img {
+        width: 70vw; 
+        max-width: auto; 
+        margin-right: 0; 
+    }
+
+    .skillcontainer-skillset{
+       margin-bottom: 0;
+    }
+
+}
+
+
